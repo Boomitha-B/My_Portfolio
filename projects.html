@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Boomitha B</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="dark-theme">
+    <canvas id="bg-canvas"></canvas>
+    <div class="custom-cursor-dot"></div>
+    <div class="custom-cursor-outline"></div>
+    <div id="scroll-progress"></div>
+    <button id="back-to-top" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <header class="navbar">
+        <nav class="container nav-container">
+            <a href="index.html" class="logo">BOOMITHA<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="experience.html" class="nav-link">Experience</a></li>
+                <li><a href="certifications.html" class="nav-link">Certifications</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="assets/Boomitha-B_23BAD021_Resume.pdf" class="btn-resume" download>Download Resume</a></li>
+            </ul>
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="projects" class="container" style="padding-top: 120px;">
+            <span class="section-label">Portfolio</span>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-description" style="margin-bottom: 2rem;">A showcase of my recent work in AI, Machine
+                Learning, and Software Development.</p>
+
+            <!-- Project Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Items</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1: Healthcare -->
+                <article class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&q=80&w=600"
+                            alt="HealthCare Appointment Scheduling System">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-card-title">HealthCare Appointment Scheduling System</h3>
+                        <p class="project-card-desc">A web based healthcare appointment system enabling booking,
+                            rescheduling and automated reminder management for efficient hospital scheduling.</p>
+                        <div class="project-tech-stack">
+                            <span class="tech-badge">Web</span>
+                            <span class="tech-badge">JavaScript</span>
+                            <span class="tech-badge">SQL</span>
+                            <span class="tech-badge">Python</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="project-link primary"><i class="fas fa-external-link-alt"></i> Live
+                                Demo</a>
+                            <a href="#" class="project-link secondary"><i class="fab fa-github"></i> Repo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2: Scheme Recommendation -->
+                <article class="project-card" data-category="ml">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&q=80&w=600"
+                            alt="Personalized Scheme Recommendation Engine">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-card-title">Personalized Scheme Recommendation Engine</h3>
+                        <p class="project-card-desc">Chatbot based application providing personalized government health
+                            scheme recommendations using user input analysis.</p>
+                        <div class="project-tech-stack">
+                            <span class="tech-badge">AI</span>
+                            <span class="tech-badge">Chatbot</span>
+                            <span class="tech-badge">NLP</span>
+                            <span class="tech-badge">Python</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="project-link primary"><i class="fas fa-external-link-alt"></i> Live
+                                Demo</a>
+                            <a href="#" class="project-link secondary"><i class="fab fa-github"></i> Repo</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3: GreenPulse AI -->
+                <article class="project-card" data-category="ml">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&q=80&w=600"
+                            alt="GreenPulse AI – Fertilizer Recommendation System">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-card-title">GreenPulse AI – Fertilizer Recommendation System</h3>
+                        <p class="project-card-desc">Machine learning based fertilizer recommendation system designed to
+                            improve soil health and support sustainable agriculture.</p>
+                        <div class="project-tech-stack">
+                            <span class="tech-badge">AI</span>
+                            <span class="tech-badge">Machine Learning</span>
+                            <span class="tech-badge">Data Science</span>
+                            <span class="tech-badge">Python</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="#" class="project-link primary"><i class="fas fa-external-link-alt"></i> Live
+                                Demo</a>
+                            <a href="#" class="project-link secondary"><i class="fab fa-github"></i> Repo</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div style="margin-top: 4rem; text-align: center;">
+                <p style="color: var(--muted-foreground);">More projects are being added soon. Stay tuned!</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <span class="logo">BOOMITHA<span>.</span></span>
+                <p>&copy; 2024 Boomitha B. Built with precision and passion.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://github.com/Boomitha-B" aria-label="GitHub" target="_blank"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/boomitha-b-948468291/" aria-label="LinkedIn" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="LeetCode" target="_blank"><i class="fas fa-code"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

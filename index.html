@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boomitha B | AI & Data Science Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="dark-theme">
+    <canvas id="bg-canvas"></canvas>
+    <div class="custom-cursor-dot"></div>
+    <div class="custom-cursor-outline"></div>
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress"></div>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <nav class="container nav-container">
+            <a href="index.html" class="logo">BOOMITHA<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link active">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="experience.html" class="nav-link">Experience</a></li>
+                <li><a href="certifications.html" class="nav-link">Certifications</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="assets/Boomitha-B_23BAD021_Resume.pdf" class="btn-resume" download>Download Resume</a></li>
+            </ul>
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero container visible">
+            <div class="hero-bg-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+            <div class="hero-grid">
+                <div class="hero-image-container">
+                    <div class="profile-circle">
+                        <img src="images/Pooja.jpg" alt="Boomitha B">
+                    </div>
+                </div>
+                <div class="hero-content">
+                    <span class="section-label">Available for work</span>
+                    <h1 class="hero-title" style="margin-bottom: 0.5rem;">Boomitha B</h1>
+                    <p class="hero-subtitle-top" style="font-weight: 600; color: var(--primary); margin-bottom: 1rem;">
+                        AI & Data Science Student | Aspiring Machine Learning Engineer | Problem Solver</p>
+                    <p class="hero-bio"
+                        style="font-size: 1.125rem; color: var(--muted-foreground); margin-bottom: 2rem; border-left: 2px solid var(--border); padding-left: 1rem;">
+                        Artificial Intelligence and Data Science undergraduate passionate about building intelligent
+                        systems and solving real world problems using data driven approaches and machine learning.
+                    </p>
+                    <div class="hero-btns">
+                        <a href="projects.html" class="btn btn-primary">Explore My Work</a>
+                        <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://www.linkedin.com/in/boomitha-b-948468291/" title="LinkedIn" target="_blank"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Boomitha-B" title="GitHub" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a href="#" title="LeetCode"><i class="fas fa-code"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brief Highlight Sections -->
+        <section class="container" style="padding: 4rem 0;">
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <a href="about.html" class="card highlight-card"
+                    style="padding: 2.5rem; text-decoration: none; transition: transform 0.3s ease;">
+                    <i class="fas fa-user-circle"
+                        style="font-size: 2.5rem; color: var(--primary); margin-bottom: 1.5rem;"></i>
+                    <h3>About Me</h3>
+                    <p style="color: var(--muted-foreground); margin-top: 1rem;">AI & Data Science student at KCT,
+                        building intelligent systems and solving real-world challenges.</p>
+                </a>
+                <a href="projects.html" class="card highlight-card"
+                    style="padding: 2.5rem; text-decoration: none; transition: transform 0.3s ease;">
+                    <i class="fas fa-project-diagram"
+                        style="font-size: 2.5rem; color: var(--primary); margin-bottom: 1.5rem;"></i>
+                    <h3>Projects</h3>
+                    <p style="color: var(--muted-foreground); margin-top: 1rem;">Exploring machine learning models and
+                        data-driven applications through impactful projects.</p>
+                </a>
+                <a href="skills.html" class="card highlight-card"
+                    style="padding: 2.5rem; text-decoration: none; transition: transform 0.3s ease;">
+                    <i class="fas fa-laptop-code"
+                        style="font-size: 2.5rem; color: var(--primary); margin-bottom: 1.5rem;"></i>
+                    <h3>Skills</h3>
+                    <p style="color: var(--muted-foreground); margin-top: 1rem;">Check my technical proficiency in
+                        Python,
+                        ML, and Data Analytics.</p>
+                </a>
+                <a href="certifications.html" class="card highlight-card"
+                    style="padding: 2.5rem; text-decoration: none; transition: transform 0.3s ease;">
+                    <i class="fas fa-certificate"
+                        style="font-size: 2.5rem; color: var(--primary); margin-bottom: 1.5rem;"></i>
+                    <h3>Certifications</h3>
+                    <p style="color: var(--muted-foreground); margin-top: 1rem;">Explore my credentials in AI, Machine
+                        Learning, and Full Stack Development.</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <span class="logo">BOOMITHA<span>.</span></span>
+                <p>&copy; 2024 Boomitha B. Built with precision and passion.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://github.com/Boomitha-B" aria-label="GitHub" target="_blank"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/boomitha-b-948468291/" aria-label="LinkedIn" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="LeetCode" target="_blank"><i class="fas fa-code"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

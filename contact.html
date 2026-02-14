@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Boomitha B</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="dark-theme">
+    <canvas id="bg-canvas"></canvas>
+    <div class="custom-cursor-dot"></div>
+    <div class="custom-cursor-outline"></div>
+    <div id="scroll-progress"></div>
+    <button id="back-to-top" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <header class="navbar">
+        <nav class="container nav-container">
+            <a href="index.html" class="logo">BOOMITHA<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="experience.html" class="nav-link">Experience</a></li>
+                <li><a href="certifications.html" class="nav-link">Certifications</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                <li><a href="assets/Boomitha-B_23BAD021_Resume.pdf" class="btn-resume" download>Download Resume</a></li>
+            </ul>
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact" class="container" style="padding-top: 120px;">
+            <span class="section-label">Get in Touch</span>
+            <h2 class="section-title">Let's craft something exceptional.</h2>
+            <div class="contact-grid">
+                <div class="contact-sidebar">
+                    <div class="availability-badge">
+                        <span class="pulse"></span>
+                        Available for fresh opportunities
+                    </div>
+                    <p class="section-description">I'm currently looking for new roles where I can contribute to
+                        impactful projects. Whether you have a question or just want to say hi, my inbox is always open.
+                    </p>
+
+                    <div class="contact-links">
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-label">Email</span>
+                                <a href="mailto:poojaunity2006@gmail.com"
+                                    class="contact-value">poojaunity2006@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-label">Phone</span>
+                                <a href="tel:+919344596122" class="contact-value">+91 93445 96122</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="contact-details">
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">Tamil Nadu, India</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form id="contact-form" class="professional-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" placeholder="John Doe" pattern="^[A-Za-z\s]+$"
+                                title="Name should only contain letters and spaces" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" placeholder="example@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" placeholder="Tell me about your project..."
+                                required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <span class="logo">BOOMITHA<span>.</span></span>
+                <p>&copy; 2024 Boomitha B. Built with precision and passion.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://github.com/Boomitha-B" aria-label="GitHub" target="_blank"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/boomitha-b-948468291/" aria-label="LinkedIn" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="LeetCode" target="_blank"><i class="fas fa-code"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | Boomitha B</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="dark-theme">
+    <canvas id="bg-canvas"></canvas>
+    <div class="custom-cursor-dot"></div>
+    <div class="custom-cursor-outline"></div>
+    <div id="scroll-progress"></div>
+    <button id="back-to-top" title="Go to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <header class="navbar">
+        <nav class="container nav-container">
+            <a href="index.html" class="logo">BOOMITHA<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link active">About</a></li>
+                <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="experience.html" class="nav-link">Experience</a></li>
+                <li><a href="certifications.html" class="nav-link">Certifications</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="assets/Boomitha-B_23BAD021_Resume.pdf" class="btn-resume" download>Download Resume</a></li>
+            </ul>
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="container" style="padding-top: 120px;">
+            <span class="section-label">About Me</span>
+            <h2 class="section-title">Driven by curiosity, powered by code.</h2>
+            <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
+                <div class="about-text">
+                    <p class="section-description">I am an Artificial Intelligence and Data Science undergraduate with
+                        strong interest in AI systems and data driven applications. I have experience in building AI
+                        agents and developing machine learning models along with knowledge in data collection,
+                        preprocessing, exploratory data analysis, visualization and predictive modeling.</p>
+                    <p class="section-description" style="margin-top: 1rem;">I have worked with Power BI and Tableau for
+                        data visualization projects and enjoy exploring emerging technologies to solve real world
+                        challenges. I am a quick learner, effective team collaborator and passionate problem solver.</p>
+                </div>
+                <div class="about-stats card"
+                    style="display: flex; flex-direction: column; gap: 2.5rem; padding: 2.5rem;">
+                    <div>
+                        <h3 style="margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.75rem;">
+                            <i class="fas fa-graduation-cap" style="color: var(--primary);"></i>
+                            Higher Education
+                        </h3>
+                        <div style="display: flex; flex-direction: column; gap: 0.5rem; padding-left: 2.25rem;">
+                            <p><strong>B.Tech Artificial Intelligence and Data Science</strong></p>
+                            <p style="color: var(--muted-foreground);">Kumaraguru College of Technology</p>
+                            <p style="font-weight: 600;">CGPA: 8.3 | 2023–2027</p>
+                        </div>
+                    </div>
+                    <div style="border-top: 1px solid rgba(255, 255, 255, 0.1); padding-top: 2.5rem;">
+                        <h3 style="margin-bottom: 1.25rem; display: flex; align-items: center; gap: 0.75rem;">
+                            <i class="fas fa-university" style="color: var(--primary);"></i>
+                            Schooling
+                        </h3>
+                        <div style="display: flex; flex-direction: column; gap: 0.5rem; padding-left: 2.25rem;">
+                            <p><strong>Higher Secondary (12th)</strong></p>
+                            <p style="color: var(--muted-foreground);">Sri Sarada Matric Hr. Sec. School</p>
+                            <p style="font-weight: 600;">Percentage: 96.5%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Interests Section -->
+                <div class="card" style="margin-top: 3rem; padding: 2.5rem;">
+                    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;">
+                        <i class="fas fa-heart" style="font-size: 1.5rem; color: var(--primary);"></i>
+                        <h3 style="font-size: 1.5rem;">Areas of Interest</h3>
+                    </div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 1rem;">
+                        <span class="skill-badge"
+                            style="background: rgba(56, 189, 248, 0.1); color: var(--primary); padding: 0.6rem 1.25rem; border-radius: 2rem; border: 1px solid rgba(56, 189, 248, 0.2); font-size: 0.9375rem; display: flex; align-items: center; gap: 0.6rem;"><i
+                                class="fas fa-robot"></i> Building AI agents</span>
+                        <span class="skill-badge"
+                            style="background: rgba(56, 189, 248, 0.1); color: var(--primary); padding: 0.6rem 1.25rem; border-radius: 2rem; border: 1px solid rgba(56, 189, 248, 0.2); font-size: 0.9375rem; display: flex; align-items: center; gap: 0.6rem;"><i
+                                class="fas fa-brain"></i> Machine Learning applications</span>
+                        <span class="skill-badge"
+                            style="background: rgba(56, 189, 248, 0.1); color: var(--primary); padding: 0.6rem 1.25rem; border-radius: 2rem; border: 1px solid rgba(56, 189, 248, 0.2); font-size: 0.9375rem; display: flex; align-items: center; gap: 0.6rem;"><i
+                                class="fas fa-chart-line"></i> Data Analytics</span>
+                        <span class="skill-badge"
+                            style="background: rgba(56, 189, 248, 0.1); color: var(--primary); padding: 0.6rem 1.25rem; border-radius: 2rem; border: 1px solid rgba(56, 189, 248, 0.2); font-size: 0.9375rem; display: flex; align-items: center; gap: 0.6rem;"><i
+                                class="fas fa-microchip"></i> Embedded Systems and IoT</span>
+                        <span class="skill-badge"
+                            style="background: rgba(56, 189, 248, 0.1); color: var(--primary); padding: 0.6rem 1.25rem; border-radius: 2rem; border: 1px solid rgba(56, 189, 248, 0.2); font-size: 0.9375rem; display: flex; align-items: center; gap: 0.6rem;"><i
+                                class="fas fa-hands-helping"></i> Volunteering</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Personal Details from Resume -->
+            <div style="margin-top: 4rem;">
+                <h3 class="section-title" style="font-size: 1.5rem; margin-bottom: 2rem;">Personal Details</h3>
+                <div class="grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
+                    <div class="card" style="padding: 1.5rem;">
+                        <p style="color: var(--muted-foreground); font-size: 0.875rem;">Date of Birth</p>
+                        <p style="font-weight: 600;">22-03-2006</p>
+                    </div>
+                    <div class="card" style="padding: 1.5rem;">
+                        <p style="color: var(--muted-foreground); font-size: 0.875rem;">Location</p>
+                        <p style="font-weight: 600;">Tamil Nadu, India</p>
+                    </div>
+                    <div class="card" style="padding: 1.5rem;">
+                        <p style="color: var(--muted-foreground); font-size: 0.875rem;">Languages</p>
+                        <p style="font-weight: 600;">Tamil (Native), English (Professional), Hindi (Basic)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Profiles section integrated here -->
+        <section id="profiles" class="container">
+            <span class="section-label">Digital Presence</span>
+            <h2 class="section-title">Coding Profiles</h2>
+            <div class="profiles-grid">
+                <div class="profile-card">
+                    <div class="profile-icon linkedin-icon"><i class="fab fa-linkedin"></i></div>
+                    <h3 class="platform-name">LinkedIn</h3>
+                    <p class="username">Boomitha B</p>
+                    <p class="profile-desc">Connecting with tech professionals and sharing insights on emerging trends
+                        in AI and Data Science.</p>
+                    <a href="https://www.linkedin.com/in/boomitha-b-948468291/" class="btn btn-secondary profile-btn"
+                        target="_blank">Visit Profile</a>
+                </div>
+                <div class="profile-card">
+                    <div class="profile-icon"><i class="fab fa-github"></i></div>
+                    <h3 class="platform-name">GitHub</h3>
+                    <p class="username">@Boomitha-B</p>
+                    <p class="profile-desc">Showcasing my Machine Learning models and AI agent repositories.</p>
+                    <a href="https://github.com/Boomitha-B" class="btn btn-secondary profile-btn" target="_blank">Visit
+                        Profile</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-info">
+                <span class="logo">BOOMITHA<span>.</span></span>
+                <p>&copy; 2024 Boomitha B. Built with precision and passion.</p>
+            </div>
+            <div class="footer-socials">
+                <a href="https://github.com/Boomitha-B" aria-label="GitHub" target="_blank"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/boomitha-b-948468291/" aria-label="LinkedIn" target="_blank"><i
+                        class="fab fa-linkedin"></i></a>
+                <a href="#" aria-label="LeetCode" target="_blank"><i class="fas fa-code"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
