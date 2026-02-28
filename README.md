@@ -113,23 +113,6 @@ Downloadable PDF version of my resume.
 
 ---
 
-## 📁 Project Structure
-
-My_Portfolio/
-│
-├── index.html # Main HTML file containing all sections
-├── style.css # Styling, layout, and responsiveness
-├── script.js # JavaScript for interactivity
-│
-├── assets/ # Static resources
-│ ├── images/ # Profile and project images
-│ └── resume/ # Downloadable resume file
-│
-└── README.md # Project documentation
-
----
-
-
 ### 📌 Structure Explanation
 
 - **index.html** – Core webpage with all portfolio sections  
