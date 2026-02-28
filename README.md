@@ -22,6 +22,8 @@
 
 ---
 
+![image alt](https://github.com/Boomitha-B/My_Portfolio/blob/3cf7bc5e8b095a85a27793eab705ec438b652382/Screenshot%202026-02-28%20105007.png)
+
 ## 📌 Table of Contents
 
 - [📖 About The Project](#-about-the-project)
