@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>AI & Data Science Student | Aspiring Machine Learning Engineer | Problem Solver</b><br>
-  📍 Chennai, India
+  📍 Coimbatore, India
 </p>
 
 <p align="center">
