@@ -29,7 +29,6 @@
 - [✨ Key Features](#-key-features)
 - [🧩 Website Sections](#-website-sections)
 - [🛠 Tech Stack](#-tech-stack)
-- [📁 Project Structure](#-project-structure)
 - [💻 Installation & Usage](#-installation--usage)
 - [🎨 Design Philosophy](#-design-philosophy)
 - [🚀 Future Enhancements](#-future-enhancements)
